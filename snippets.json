@@ -1,0 +1,29 @@
+{
+  "Angular Component": {
+    "prefix": "ng-comp",
+    "body": [
+      "import { Component } from '@angular/core';\n",
+      "@Component({",
+      "\tselector: '$1',",
+      "\ttemplateUrl: '$2',",
+      "\tstyleUrls: ['$3']",
+      "})",
+      "export class $4 {",
+      "\tconstructor(){}",
+      "}"
+    ],
+    "description": "Create a default angular component"
+  },
+  "NbMenuItem": {
+    "prefix": "nb-m-item",
+    "body": [
+      "{",
+      "\ttitle: '$1',",
+      "\ticon: '$2',",
+      "\tlink: '$3',",
+      "\thome: $4,",
+      "},"
+    ],
+    "description": "Define route item in ngx"
+  }
+}
